@@ -1,0 +1,519 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100%;
+  background: #000;
+  background-position: center;
+  background-size: cover;
+  height: 77px;
+}
+
+.content {
+  height: 835px;
+}
+
+.navbar {
+  width: 660px;
+  margin: auto;
+}
+
+.menu {
+  width: 400px;
+  float: left;
+}
+
+ul {
+  position: fixed;
+  float: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #18181b;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 2020;
+}
+
+ul li {
+  list-style: none;
+  margin-left: 31px;
+  margin-top: 20px;
+  margin-right: 31px;
+  margin-bottom: 13px;
+  font-size: 14px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+  color: #800000;
+}
+
+.languages-off button {
+  list-style: none;
+  font-size: 14px;
+  position: relative;
+  text-align: center;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+
+/** START - ALL - Button Search and display the download options & H1 & P **/
+
+.main-spotify .content .rectangle2 {
+  margin-top: 10px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 830px;
+  height: 100px;
+  text-align: center;
+  border-radius: 50px;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+.main-spotify .content .rectangle2 button {
+  text-decoration: bold;
+  width: 830px;
+  height: 100px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 38px;
+  font-family: "Myriad Pro Regular";
+  border: none;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.main-spotify .content .rectangle2 button:hover {
+  background: #042;
+}
+
+.main-spotify .content .rectangle2 button:disabled {
+  width: 830px;
+  height: 100px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 38px;
+  transition: none;
+  background-color: rgba(239, 239, 239, 0.3);
+  cursor: auto;
+}
+
+.main-spotify .content .rectangle2 button:disabled:hover {
+  width: 830px;
+  height: 100px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 38px;
+  transition: none;
+  background-color: rgba(239, 239, 239, 0.3);
+  cursor: auto;
+  background: rgba(239, 239, 239, 0.3);
+}
+
+.main-twitch .content .rectangle2 button:hover {
+  background: #7b68ee;
+}
+
+.main-youtube .content .rectangle2 button:hover {
+  background: #800000;
+}
+
+.main-instagram .content .rectangle2 button:hover {
+  background: #ff8243;
+}
+
+.main-tiktok .content .rectangle2 button:hover {
+  background: #2A1E36;
+}
+
+.content h1 {
+  padding-top: 60px;
+  position: relative;
+  margin-left: 46px;
+  margin-right: auto;
+  font-size: 44px;
+  font-family: "MADE Future X Black";
+  color: #fff;
+}
+
+.content p {
+  position: relative;
+  margin-top: 42px;
+  text-align: center;
+  font-size: 34px;
+  font-family: "MADE Future X Black";
+  color: #fff;
+}
+
+/** END - ALL - Button Search and display the download options & H1 & P **/
+
+/** Spotify **/
+
+.main-spotify {
+  width: 100%;
+  background: #1ed561;
+  background-position: center;
+  background-size: cover;
+  height: 835px;
+}
+
+.spotify {
+  position: relative;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.rectangle1 {
+  margin-top: 25px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1031px;
+  height: 100px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 50px;
+  color: #a6a6a6;
+}
+
+.rectangle1 input {
+  width: 1031px;
+  height: 100px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 38px;
+  font-family: "Myriad Pro Regular";
+  border: none;
+  color: #000;
+}
+
+/** Twitch **/
+
+.main-twitch {
+  width: 100%;
+  background: #9147ff;
+  background-position: center;
+  background-size: cover;
+  height: 835px;
+}
+
+.twitch {
+  position: relative;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.rectangle1-twitch {
+  margin-top: 25px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1150px;
+  height: 100px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 50px;
+  color: #a6a6a6;
+}
+
+.rectangle1-twitch input {
+  width: 1150px;
+  height: 100px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 38px;
+  font-family: "Myriad Pro Regular";
+  border: none;
+  color: #000;
+}
+
+/** YOUTUBE **/
+
+.main-youtube {
+  width: 100%;
+  background: #ff0000;
+  background-position: center;
+  background-size: cover;
+  height: 835px;
+}
+
+.youtube {
+  position: relative;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.rectangle1-youtube {
+  margin-top: 25px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  height: 100px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 50px;
+  color: #a6a6a6;
+}
+
+.rectangle1-youtube input {
+  width: 900px;
+  height: 100px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 38px;
+  font-family: "Myriad Pro Regular";
+  border: none;
+  color: #000;
+}
+
+/** Instagram **/
+
+.main-instagram {
+  width: 100%;
+  background: -webkit-radial-gradient(32% 106%,
+      circle cover,
+      rgb(255, 225, 125) 0%,
+      rgb(255, 205, 105) 10%,
+      rgb(250, 145, 55) 28%,
+      rgb(235, 65, 65) 42%,
+      transparent 82%),
+    -webkit-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+  background: -moz-radial-gradient(32% 106%,
+      circle cover,
+      rgb(255, 225, 125) 0%,
+      rgb(255, 205, 105) 10%,
+      rgb(250, 145, 55) 28%,
+      rgb(235, 65, 65) 42%,
+      transparent 82%),
+    -moz-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+  background: -ms-radial-gradient(32% 106%,
+      circle cover,
+      rgb(255, 225, 125) 0%,
+      rgb(255, 205, 105) 10%,
+      rgb(250, 145, 55) 28%,
+      rgb(235, 65, 65) 42%,
+      transparent 82%),
+    -ms-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+  background: -o-radial-gradient(32% 106%,
+      circle cover,
+      rgb(255, 225, 125) 0%,
+      rgb(255, 205, 105) 10%,
+      rgb(250, 145, 55) 28%,
+      rgb(235, 65, 65) 42%,
+      transparent 82%),
+    -o-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+  background: radial-gradient(circle farthest-corner at 32% 106%,
+      rgb(255, 225, 125) 0%,
+      rgb(255, 205, 105) 10%,
+      rgb(250, 145, 55) 28%,
+      rgb(235, 65, 65) 42%,
+      transparent 82%),
+    linear-gradient(135deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+  background-position: center;
+  background-size: cover;
+  height: 835px;
+}
+
+.instagram {
+  position: relative;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.rectangle1-instagram {
+  margin-top: 25px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  height: 100px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 50px;
+  color: #a6a6a6;
+}
+
+.rectangle1-instagram input {
+  width: 800px;
+  height: 100px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 38px;
+  font-family: "Myriad Pro Regular";
+  border: none;
+  color: #000;
+}
+
+/** Tiktok **/
+
+.main-tiktok {
+  width: 100%;
+  background-color: #000;
+  background-position: center;
+  background-size: cover;
+  height: 835px;
+}
+
+.tiktok {
+  position: relative;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.rectangle1-tiktok {
+  margin-top: 25px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1100px;
+  height: 100px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 50px;
+  color: #a6a6a6;
+}
+
+.rectangle1-tiktok input {
+  width: 1100px;
+  height: 100px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 38px;
+  font-family: "Myriad Pro Regular";
+  border: none;
+  color: #000;
+}
+
+/** Footer **/
+
+#footer {
+  background: #eeeeee;
+  padding: 0 0 30px 0;
+  color: #555555;
+  font-size: 14px;
+}
+
+#footer .footer-top {
+  background: #f6f6f6;
+  padding: 30px 0 1px 0;
+}
+
+#footer .footer-top .footer-info {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-info h3 {
+  font-size: 24px;
+  margin: 0 0 20px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  font-weight: 700;
+  text-align: center;
+}
+
+#footer .footer-top .footer-info p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.logos {
+  color: transparent;
+}
+
+#footer .copyright {
+  text-align: center;
+  padding-top: 30px;
+}
+
+#footer .credits {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.icon-inner,
+.ionicon,
+svg {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+ion-icon {
+  font-size: 32px;
+  color: #18181b;
+  --ionicon-stroke-width: 16px
+}
+
+/** INPUT RESPONSIVE **/
+
+@media screen and (max-width: 1200px) {
+  .rectangle1 {
+    width: 80%;
+  }
+
+  .rectangle1 input {
+    width: 100%;
+    font-size: 165%;
+  }
+
+  .rectangle1-twitch {
+    width: 80%;
+  }
+
+  .rectangle1-twitch input {
+    width: 80%;
+    font-size: 165%;
+  }
+
+  .rectangle1-tiktok {
+    width: 80%;
+  }
+
+  .rectangle1-tiktok input {
+    width: 100%;
+    font-size: 165%;
+  }
+
+  .rectangle1-youtube {
+    width: 80%;
+  }
+
+  .rectangle1-youtube input {
+    width: 100%;
+    font-size: 165%;
+  }
+
+  .rectangle1-instagram {
+    width: 80%;
+  }
+
+  .rectangle1-instagram input {
+    width: 100%;
+    font-size: 165%;
+  }
+
+  .content p {
+    text-align: center;
+  }
+}
