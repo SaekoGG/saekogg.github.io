@@ -428,7 +428,6 @@ div.main-tiktok div.content figure.rectangle2 button:hover {
   padding: 0 0 30px 0;
   color: #555555;
   font-size: 14px;
-  height: 370px;
 }
 
 #footer .footer-top {
@@ -538,7 +537,6 @@ ion-icon {
     text-align: center;
   }
 }
-<<<<<<< HEAD
 
 @media screen and (max-width: 800px) {
   ul {
@@ -600,5 +598,3 @@ ion-icon {
     overflow: hidden;
   }
 }
-=======
->>>>>>> 1b11a75afa7fb06b0850de33c3c6e51fd76836ab
