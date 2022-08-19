@@ -1,18 +1,22 @@
 const spotify = document.getElementById("spotify");
 const spotifyp = document.getElementById("spotifyp");
-const button = document.getElementById("button");
-const instagram = document.getElementById("instagram");
-const instagramp = document.getElementById("instagramp");
-const button2 = document.getElementById("button2");
-const youtube = document.getElementById("youtube");
-const youtubep = document.getElementById("youtubep");
-const button3 = document.getElementById("button3");
-const tiktok = document.getElementById("tiktok");
-const tiktokp = document.getElementById("tiktokp");
-const button4 = document.getElementById("button4");
+const spotifybutton = document.getElementById("button");
+
 const twitch = document.getElementById("twitch");
 const twitchp = document.getElementById("twitchp");
-const button5 = document.getElementById("button5");
+const twitchbutton = document.getElementById("button2");
+
+const youtube = document.getElementById("youtube");
+const youtubep = document.getElementById("youtubep");
+const youtubebutton = document.getElementById("button3");
+
+const instagram = document.getElementById("instagram");
+const instagramp = document.getElementById("instagramp");
+const instagrambutton = document.getElementById("button4");
+
+const tiktok = document.getElementById("tiktok");
+const tiktokp = document.getElementById("tiktokp");
+const tiktokbutton = document.getElementById("button5");
 
 const phone = document.getElementById("phone");
 const email = document.getElementById("email");
@@ -40,11 +44,11 @@ myImage.onclick = function () {
     tiktok.innerHTML = "Téléchargeur<br><span>Vidéo TikTok</span>";
     tiktokp.innerHTML = "Entrez l'URL de la Vidéo TikTok";
 
-    button.innerHTML = "Rechercher et afficher les options de téléchargement";
-    button2.innerHTML = "Rechercher et afficher les options de téléchargement";
-    button3.innerHTML = "Rechercher et afficher les options de téléchargement";
-    button4.innerHTML = "Rechercher et afficher les options de téléchargement";
-    button5.innerHTML = "Rechercher et afficher les options de téléchargement";
+    spotifybutton.innerHTML = "Rechercher";
+    youtubebutton.innerHTML = "Rechercher";
+    instagrambutton.innerHTML = "Rechercher";
+    twitchbutton.innerHTML = "Rechercher";
+    tiktokbutton.innerHTML = "Rechercher";
 
     phone.innerHTML = "Téléphone : ";
     email.innerHTML = "Email : ";
@@ -67,11 +71,11 @@ myImage.onclick = function () {
     tiktok.innerHTML = "TikTok Video<br><span>Downloader</span>";
     tiktokp.innerHTML = "Enter the TikTok URL";
 
-    button.innerHTML = "Search and show the download options";
-    button2.innerHTML = "Search and show the download options";
-    button3.innerHTML = "Search and show the download options";
-    button4.innerHTML = "Search and show the download options";
-    button5.innerHTML = "Search and show the download options";
+    spotifybutton.innerHTML = "Search";
+    twitchbutton.innerHTML = "Search";
+    youtubebutton.innerHTML = "Search";
+    instagrambutton.innerHTML = "Search";
+    tiktokbutton.innerHTML = "Search";
 
     phone.innerHTML = "Phone: ";
     email.innerHTML = "Email: ";
@@ -80,61 +84,49 @@ myImage.onclick = function () {
   }
 };
 
-/** 
-function isEmpty() {
-  let url = document.getElementById("url").value;
-
-  if (url != "") {
-    button.removeAttribute("disabled");
-    button.disabled = false;
-  }
-  if (url === "") {
-    button.setAttribute("disabled");
-    button.disabled = true;
-  }
-}*/
+const allurl = [url, url2, url3, url4, url5];
 
 url.addEventListener("keyup", (e) => {
   const value = e.currentTarget.value;
-  button.disabled = false;
+  spotifybutton.disabled = false;
 
   if (value === "") {
-    button.disabled = true;
+    spotifybutton.disabled = true;
   }
 });
 
 url2.addEventListener("keyup", (e) => {
   const value = e.currentTarget.value;
-  button2.disabled = false;
+  twitchbutton.disabled = false;
 
   if (value === "") {
-    button2.disabled = true;
+    twitchbutton.disabled = true;
   }
 });
 
 url3.addEventListener("keyup", (e) => {
   const value = e.currentTarget.value;
-  button3.disabled = false;
+  youtubebutton.disabled = false;
 
   if (value === "") {
-    button3.disabled = true;
+    youtubebutton.disabled = true;
   }
 });
 
 url4.addEventListener("keyup", (e) => {
   const value = e.currentTarget.value;
-  button4.disabled = false;
+  instagrambutton.disabled = false;
 
   if (value === "") {
-    button4.disabled = true;
+    instagrambutton.disabled = true;
   }
 });
 
 url5.addEventListener("keyup", (e) => {
   const value = e.currentTarget.value;
-  button5.disabled = false;
+  tiktokbutton.disabled = false;
 
   if (value === "") {
-    button5.disabled = true;
+    tiktokbutton.disabled = true;
   }
 });

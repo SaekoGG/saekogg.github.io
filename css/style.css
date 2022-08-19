@@ -1,3 +1,7 @@
+html {
+  overflow: visible;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +12,7 @@
   background: #000;
   background-position: center;
   background-size: cover;
-  height: 77px;
+  height: 23.13px;
 }
 
 .content {
@@ -16,7 +20,6 @@
 }
 
 .navbar {
-  width: 660px;
   margin: auto;
 }
 
@@ -71,12 +74,15 @@ ul li a:hover {
 
 /** START - ALL - Button Search and display the download options & H1 & P **/
 
-.main-spotify .content .rectangle2 {
+div.main-spotify div.content figure.rectangle2,
+div.main-twitch div.content figure.rectangle2,
+div.main-youtube div.content figure.rectangle2,
+div.main-instagram div.content figure.rectangle2,
+div.main-tiktok div.content figure.rectangle2 {
   margin-top: 10px;
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  width: 830px;
   height: 100px;
   text-align: center;
   border-radius: 50px;
@@ -84,9 +90,13 @@ ul li a:hover {
   color: #000;
 }
 
-.main-spotify .content .rectangle2 button {
+div.main-spotify div.content figure.rectangle2 button,
+div.main-twitch div.content figure.rectangle2 button,
+div.main-youtube div.content figure.rectangle2 button,
+div.main-instagram div.content figure.rectangle2 button,
+div.main-tiktok div.content figure.rectangle2 button {
   text-decoration: bold;
-  width: 830px;
+  width: 200px;
   height: 100px;
   border-radius: 50px;
   text-align: center;
@@ -99,12 +109,12 @@ ul li a:hover {
   transition: 0.5s ease-in-out;
 }
 
-.main-spotify .content .rectangle2 button:hover {
-  background: #042;
-}
 
-.main-spotify .content .rectangle2 button:disabled {
-  width: 830px;
+div.main-spotify div.content figure.rectangle2 button:disabled,
+div.main-twitch div.content figure.rectangle2 button:disabled,
+div.main-youtube div.content figure.rectangle2 button:disabled,
+div.main-instagram div.content figure.rectangle2 button:disabled,
+div.main-tiktok div.content figure.rectangle2 button:disabled {
   height: 100px;
   border-radius: 50px;
   text-align: center;
@@ -114,8 +124,12 @@ ul li a:hover {
   cursor: auto;
 }
 
-.main-spotify .content .rectangle2 button:disabled:hover {
-  width: 830px;
+div.main-spotify div.content figure.rectangle2 button:disabled:hover,
+div.main-twitch div.content figure.rectangle2 button:disabled:hover,
+div.main-youtube div.content figure.rectangle2 button:disabled:hover,
+div.main-instagram div.content figure.rectangle2 button:disabled:hover,
+div.main-tiktok div.content figure.rectangle2 button:disabled:hover {
+  width: 200px;
   height: 100px;
   border-radius: 50px;
   text-align: center;
@@ -126,19 +140,24 @@ ul li a:hover {
   background: rgba(239, 239, 239, 0.3);
 }
 
-.main-twitch .content .rectangle2 button:hover {
+
+div.main-spotify div.content figure.rectangle2 button:hover {
+  background: #042;
+}
+
+div.main-twitch div.content figure.rectangle2 button:hover {
   background: #7b68ee;
 }
 
-.main-youtube .content .rectangle2 button:hover {
+div.main-youtube div.content figure.rectangle2 button:hover {
   background: #800000;
 }
 
-.main-instagram .content .rectangle2 button:hover {
+div.main-instagram div.content figure.rectangle2 button:hover {
   background: #ff8243;
 }
 
-.main-tiktok .content .rectangle2 button:hover {
+div.main-tiktok div.content figure.rectangle2 button:hover {
   background: #2A1E36;
 }
 
@@ -166,6 +185,7 @@ ul li a:hover {
 /** Spotify **/
 
 .main-spotify {
+  position: relative;
   width: 100%;
   background: #1ed561;
   background-position: center;
@@ -515,5 +535,66 @@ ion-icon {
 
   .content p {
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  ul {
+    position: relative;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    height: 356px;
+  }
+
+  ul li {
+    --caca: 702px;
+    margin-right: var(--caca);
+    margin-top: 0px;
+    margin-bottom: 2px;
+  }
+
+  h1#spotify.testspotify {
+    padding-top: 380px;
+  }
+
+  .content h1 {
+    padding-top: 35px;
+  }
+
+  .main-spotify {
+    height: 1161px;
+    width: 800px;
+  }
+
+  .main-twitch,
+  .main-youtube,
+  .main-instagram,
+  .main-tiktok {
+    width: 800px;
+    height: 835px;
+  }
+
+  footer#footer {
+    width: 800px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+  }
+}
+
+@media screen and (max-width:200px) {
+
+  .spotify,
+  .twitch,
+  .youtube,
+  .instagram,
+  .tiktok {
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
   }
 }
