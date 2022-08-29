@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'MADE Future';
+  src: url('fonts/MADE_Future.otf');
+}
+
+@font-face {
+  font-family: 'Myriad Pro Regular';
+  src: url('fonts/Myriad_Pro_Regular.ttf');
+}
+
 html {
   overflow: visible;
 }
@@ -101,7 +111,7 @@ div.main-tiktok div.content figure.rectangle2 button {
   border-radius: 50px;
   text-align: center;
   font-size: 38px;
-  font-family: "Myriad Pro Regular";
+  font-family: 'Myriad Pro Regular';
   border: none;
   background-color: #fff;
   color: #000;
@@ -167,7 +177,7 @@ div.main-tiktok div.content figure.rectangle2 button:hover {
   margin-left: 46px;
   margin-right: auto;
   font-size: 44px;
-  font-family: "MADE Future X Black";
+  font-family: 'MADE Future';
   color: #fff;
 }
 
@@ -176,7 +186,7 @@ div.main-tiktok div.content figure.rectangle2 button:hover {
   margin-top: 42px;
   text-align: center;
   font-size: 34px;
-  font-family: "MADE Future X Black";
+  font-family: 'MADE Future';
   color: #fff;
 }
 
@@ -218,7 +228,7 @@ div.main-tiktok div.content figure.rectangle2 button:hover {
   border-radius: 50px;
   text-align: center;
   font-size: 38px;
-  font-family: "Myriad Pro Regular";
+  font-family: 'Myriad Pro Regular';
   border: none;
   color: #000;
 }
@@ -258,7 +268,7 @@ div.main-tiktok div.content figure.rectangle2 button:hover {
   border-radius: 50px;
   text-align: center;
   font-size: 38px;
-  font-family: "Myriad Pro Regular";
+  font-family: 'Myriad Pro Regular';
   border: none;
   color: #000;
 }
@@ -298,7 +308,7 @@ div.main-tiktok div.content figure.rectangle2 button:hover {
   border-radius: 50px;
   text-align: center;
   font-size: 38px;
-  font-family: "Myriad Pro Regular";
+  font-family: 'Myriad Pro Regular';
   border: none;
   color: #000;
 }
@@ -376,7 +386,7 @@ div.main-tiktok div.content figure.rectangle2 button:hover {
   border-radius: 50px;
   text-align: center;
   font-size: 38px;
-  font-family: "Myriad Pro Regular";
+  font-family: 'Myriad Pro Regular';
   border: none;
   color: #000;
 }
@@ -416,7 +426,7 @@ div.main-tiktok div.content figure.rectangle2 button:hover {
   border-radius: 50px;
   text-align: center;
   font-size: 38px;
-  font-family: "Myriad Pro Regular";
+  font-family: 'Myriad Pro Regular';
   border: none;
   color: #000;
 }
