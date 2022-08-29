@@ -68,8 +68,28 @@ ul li a {
   transition: 0.4s ease-in-out;
 }
 
-ul li a:hover {
+a.sptf:hover {
+  color: #042;
+}
+
+a.twt:hover {
+  color: #7b68ee;
+}
+
+a.ytb:hover {
   color: #800000;
+}
+
+a.inst:hover {
+  color: #ff8243;
+}
+
+a.tkt:hover {
+  color: #2A1E36;
+}
+
+a.ctct:hover {
+  color: #555555;
 }
 
 .languages-off button {
