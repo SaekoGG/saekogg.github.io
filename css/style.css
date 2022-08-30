@@ -69,15 +69,15 @@ ul li a {
 }
 
 a.sptf:hover {
-  color: #042;
+  color: #357C3C
 }
 
 a.twt:hover {
-  color: #7b68ee;
+  color: #573391;
 }
 
 a.ytb:hover {
-  color: #800000;
+  color: #EF6D6D;
 }
 
 a.inst:hover {
@@ -85,11 +85,11 @@ a.inst:hover {
 }
 
 a.tkt:hover {
-  color: #2A1E36;
+  color: #494953;
 }
 
 a.ctct:hover {
-  color: #555555;
+  color: #F5E8E4;
 }
 
 .languages-off button {
@@ -172,15 +172,15 @@ div.main-tiktok div.content figure.rectangle2 button:disabled:hover {
 
 
 div.main-spotify div.content figure.rectangle2 button:hover {
-  background: #042;
+  background: #357C3C;
 }
 
 div.main-twitch div.content figure.rectangle2 button:hover {
-  background: #7b68ee;
+  background: #573391;
 }
 
 div.main-youtube div.content figure.rectangle2 button:hover {
-  background: #800000;
+  background: #EF6D6D;
 }
 
 div.main-instagram div.content figure.rectangle2 button:hover {
@@ -188,7 +188,7 @@ div.main-instagram div.content figure.rectangle2 button:hover {
 }
 
 div.main-tiktok div.content figure.rectangle2 button:hover {
-  background: #2A1E36;
+  background: #494953;
 }
 
 .content h1 {
