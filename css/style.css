@@ -13,29 +13,21 @@ html {
 }
 
 * {
-  margin: 0;
   padding: 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 0;
 }
 
-.main {
-  width: 100%;
-  background: #000;
-  background-position: center;
-  background-size: cover;
-  height: 23.13px;
-}
-
-.content {
-  height: 835px;
+.languages-off button {
+  border: none;
+  height: 0px;
+  cursor: pointer;
 }
 
 .navbar {
   margin: auto;
-}
-
-.menu {
-  width: 400px;
-  float: left;
 }
 
 ul {
@@ -92,15 +84,6 @@ a.ctct:hover {
   color: #F5E8E4;
 }
 
-.languages-off button {
-  list-style: none;
-  font-size: 14px;
-  position: relative;
-  text-align: center;
-  background-color: transparent;
-  cursor: pointer;
-  border: none;
-}
 
 /** START - ALL - Button Search and display the download options & H1 & P **/
 
@@ -113,10 +96,10 @@ div.main-tiktok div.content figure.rectangle2 {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  height: 100px;
+  height: 120px;
   text-align: center;
   border-radius: 50px;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   color: #000;
 }
 
@@ -125,12 +108,11 @@ div.main-twitch div.content figure.rectangle2 button,
 div.main-youtube div.content figure.rectangle2 button,
 div.main-instagram div.content figure.rectangle2 button,
 div.main-tiktok div.content figure.rectangle2 button {
-  text-decoration: bold;
   width: 200px;
   height: 100px;
   border-radius: 50px;
   text-align: center;
-  font-size: 38px;
+  font-size: 235%;
   font-family: 'Myriad Pro Regular';
   border: none;
   background-color: #fff;
@@ -148,7 +130,7 @@ div.main-tiktok div.content figure.rectangle2 button:disabled {
   height: 100px;
   border-radius: 50px;
   text-align: center;
-  font-size: 38px;
+  font-size: 235%;
   transition: none;
   background-color: rgba(239, 239, 239, 0.3);
   cursor: auto;
@@ -163,11 +145,10 @@ div.main-tiktok div.content figure.rectangle2 button:disabled:hover {
   height: 100px;
   border-radius: 50px;
   text-align: center;
-  font-size: 38px;
+  font-size: 235%;
   transition: none;
   background-color: rgba(239, 239, 239, 0.3);
   cursor: auto;
-  background: rgba(239, 239, 239, 0.3);
 }
 
 
@@ -210,6 +191,17 @@ div.main-tiktok div.content figure.rectangle2 button:hover {
   color: #fff;
 }
 
+
+.rectangle-input {
+    width: 100%;
+    height: 100px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 235%;
+    font-family: 'Myriad Pro Regular';
+    border: none;
+    color: #000;
+}
 /** END - ALL - Button Search and display the download options & H1 & P **/
 
 /** Spotify **/
@@ -220,7 +212,6 @@ div.main-tiktok div.content figure.rectangle2 button:hover {
   background: #1ed561;
   background-position: center;
   background-size: cover;
-  height: 835px;
 }
 
 .spotify {
@@ -242,17 +233,6 @@ div.main-tiktok div.content figure.rectangle2 button:hover {
   color: #a6a6a6;
 }
 
-.rectangle1 input {
-  width: 1031px;
-  height: 100px;
-  border-radius: 50px;
-  text-align: center;
-  font-size: 38px;
-  font-family: 'Myriad Pro Regular';
-  border: none;
-  color: #000;
-}
-
 /** Twitch **/
 
 .main-twitch {
@@ -260,7 +240,6 @@ div.main-tiktok div.content figure.rectangle2 button:hover {
   background: #9147ff;
   background-position: center;
   background-size: cover;
-  height: 835px;
 }
 
 .twitch {
@@ -274,23 +253,12 @@ div.main-tiktok div.content figure.rectangle2 button:hover {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  width: 1150px;
+  width: 1031px;
   height: 100px;
   background-color: #fff;
   text-align: center;
   border-radius: 50px;
   color: #a6a6a6;
-}
-
-.rectangle1-twitch input {
-  width: 1150px;
-  height: 100px;
-  border-radius: 50px;
-  text-align: center;
-  font-size: 38px;
-  font-family: 'Myriad Pro Regular';
-  border: none;
-  color: #000;
 }
 
 /** YOUTUBE **/
@@ -300,7 +268,6 @@ div.main-tiktok div.content figure.rectangle2 button:hover {
   background: #ff0000;
   background-position: center;
   background-size: cover;
-  height: 835px;
 }
 
 .youtube {
@@ -314,23 +281,12 @@ div.main-tiktok div.content figure.rectangle2 button:hover {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  width: 900px;
+  width: 1031px;
   height: 100px;
   background-color: #fff;
   text-align: center;
   border-radius: 50px;
   color: #a6a6a6;
-}
-
-.rectangle1-youtube input {
-  width: 900px;
-  height: 100px;
-  border-radius: 50px;
-  text-align: center;
-  font-size: 38px;
-  font-family: 'Myriad Pro Regular';
-  border: none;
-  color: #000;
 }
 
 /** Instagram **/
@@ -378,7 +334,6 @@ div.main-tiktok div.content figure.rectangle2 button:hover {
     linear-gradient(135deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
   background-position: center;
   background-size: cover;
-  height: 835px;
 }
 
 .instagram {
@@ -392,23 +347,12 @@ div.main-tiktok div.content figure.rectangle2 button:hover {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  width: 800px;
+  width: 1031px;
   height: 100px;
   background-color: #fff;
   text-align: center;
   border-radius: 50px;
   color: #a6a6a6;
-}
-
-.rectangle1-instagram input {
-  width: 800px;
-  height: 100px;
-  border-radius: 50px;
-  text-align: center;
-  font-size: 38px;
-  font-family: 'Myriad Pro Regular';
-  border: none;
-  color: #000;
 }
 
 /** Tiktok **/
@@ -418,7 +362,6 @@ div.main-tiktok div.content figure.rectangle2 button:hover {
   background-color: #000;
   background-position: center;
   background-size: cover;
-  height: 835px;
 }
 
 .tiktok {
@@ -432,23 +375,12 @@ div.main-tiktok div.content figure.rectangle2 button:hover {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  width: 1100px;
+  width: 1031px;
   height: 100px;
   background-color: #fff;
   text-align: center;
   border-radius: 50px;
   color: #a6a6a6;
-}
-
-.rectangle1-tiktok input {
-  width: 1100px;
-  height: 100px;
-  border-radius: 50px;
-  text-align: center;
-  font-size: 38px;
-  font-family: 'Myriad Pro Regular';
-  border: none;
-  color: #000;
 }
 
 /** Footer **/
@@ -517,52 +449,17 @@ ion-icon {
 
 /** INPUT RESPONSIVE **/
 
+@media screen and (max-width: 1100px) {
+  .rectangle1, 
+  .rectangle1-twitch,
+  .rectangle1-youtube,
+  .rectangle1-instagram,
+  .rectangle1-tiktok{
+    width: 90%
+  }
+}
+
 @media screen and (max-width: 1200px) {
-  .rectangle1 {
-    width: 80%;
-  }
-
-  .rectangle1 input {
-    width: 100%;
-    font-size: 165%;
-  }
-
-  .rectangle1-twitch {
-    width: 80%;
-  }
-
-  .rectangle1-twitch input {
-    width: 80%;
-    font-size: 165%;
-  }
-
-  .rectangle1-tiktok {
-    width: 80%;
-  }
-
-  .rectangle1-tiktok input {
-    width: 100%;
-    font-size: 165%;
-  }
-
-  .rectangle1-youtube {
-    width: 80%;
-  }
-
-  .rectangle1-youtube input {
-    width: 100%;
-    font-size: 165%;
-  }
-
-  .rectangle1-instagram {
-    width: 80%;
-  }
-
-  .rectangle1-instagram input {
-    width: 100%;
-    font-size: 165%;
-  }
-
   .content p {
     text-align: center;
   }
@@ -577,10 +474,10 @@ ion-icon {
     justify-content: space-around;
     flex-wrap: nowrap;
     height: 356px;
+    width: 100%;
   }
 
   ul li {
-    --caca: 702px;
     margin-right: var(--caca);
     margin-top: 0px;
     margin-bottom: 2px;
@@ -596,19 +493,10 @@ ion-icon {
 
   .main-spotify {
     height: 1161px;
-    width: 800px;
-  }
-
-  .main-twitch,
-  .main-youtube,
-  .main-instagram,
-  .main-tiktok {
-    width: 800px;
-    height: 835px;
   }
 
   footer#footer {
-    width: 800px;
+    width: 100%;
     overflow-y: scroll;
     scrollbar-width: thin;
   }
@@ -626,5 +514,12 @@ ion-icon {
     text-align: center;
     justify-content: center;
     overflow: hidden;
+  }
+}
+
+@media screen and (max-width:413px) {
+
+  #rectangle2 {
+    margin-bottom: 10px;
   }
 }

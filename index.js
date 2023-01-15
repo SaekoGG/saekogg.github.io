@@ -130,3 +130,63 @@ url5.addEventListener("keyup", (e) => {
     tiktokbutton.disabled = true;
   }
 });
+
+    var lang = navigator.language || navigator.userLanguage;
+
+    if (lang === "fr") {
+        // changer le contenu de la page pour la langue française
+        myImage.setAttribute("src", "assets/france.png");
+        spotify.innerHTML = "Téléchargeur<br><span>Spotify</span>";
+        spotifyp.innerHTML = "Entrez l'URL de Spotify";
+    
+        twitch.innerHTML = "Téléchargeur<br><span>Clip Twitch</span>";
+        twitchp.innerHTML = "Entrez l'URL du clip Twitch";
+    
+        instagram.innerHTML = "Téléchargeur<br><span>Post & Reels Instagram</span>";
+        instagramp.innerHTML = "Entrez l'URL du post Instagram";
+    
+        youtube.innerHTML = "Téléchargeur<br><span>Vidéo Youtube</span>";
+        youtubep.innerHTML = "Entrez l'URL de la Vidéo Youtube";
+    
+        tiktok.innerHTML = "Téléchargeur<br><span>Vidéo TikTok</span>";
+        tiktokp.innerHTML = "Entrez l'URL de la Vidéo TikTok";
+    
+        spotifybutton.innerHTML = "Rechercher";
+        youtubebutton.innerHTML = "Rechercher";
+        instagrambutton.innerHTML = "Rechercher";
+        twitchbutton.innerHTML = "Rechercher";
+        tiktokbutton.innerHTML = "Rechercher";
+    
+        phone.innerHTML = "Téléphone : ";
+        email.innerHTML = "Email : ";
+        rights.innerHTML = "Tous droits réservés";
+        credits_.innerHTML = "Conçu par ";
+    } else if (lang === "en") {
+        // changer le contenu de la page pour la langue anglaise
+        myImage.setAttribute("src", "assets/united_states.png");
+        spotify.innerHTML = "Spotify<br><span>Downloader</span>";
+        spotifyp.innerHTML = "Enter the Spotify URL";
+    
+        twitch.innerHTML = "Twitch Clip<br><span>Downloader</span>";
+        twitchp.innerHTML = "Enter the Twitch Clip URL";
+    
+        instagram.innerHTML = "Instagram Post & Reels<br><span>Downloader</span>";
+        instagramp.innerHTML = "Enter the Instagram URL";
+    
+        youtube.innerHTML = "Youtube Video<br><span>Downloader</span>";
+        youtubep.innerHTML = "Enter the Youtube URL";
+    
+        tiktok.innerHTML = "TikTok Video<br><span>Downloader</span>";
+        tiktokp.innerHTML = "Enter the TikTok URL";
+    
+        spotifybutton.innerHTML = "Search";
+        twitchbutton.innerHTML = "Search";
+        youtubebutton.innerHTML = "Search";
+        instagrambutton.innerHTML = "Search";
+        tiktokbutton.innerHTML = "Search";
+    
+        phone.innerHTML = "Phone: ";
+        email.innerHTML = "Email: ";
+        rights.innerHTML = "All Rights Reserved";
+        credits_.innerHTML = "Conçu par ";
+    }
