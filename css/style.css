@@ -22,8 +22,9 @@ html {
 
 .languages-off button {
   border: none;
-  height: 0px;
+  height: 19px;
   cursor: pointer;
+  width: 32px;
 }
 
 .navbar {
